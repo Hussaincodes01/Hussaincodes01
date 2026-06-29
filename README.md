@@ -27,7 +27,7 @@ I'm a **B.Tech Computer Science** student at **Amity University, Noida** (CGPA: 
 
 > Click any project to explore the repository.
 
-### 🔴 [PCB-Defect-Detection](https://github.com/Hussaincodes01/PCB-Defect-Detection) — *Ongoing*
+### 🔴 [PCB-Defect-Detection](https://github.com/Hussaincodes01/PCB-Defect-Detection) — *Completed 1 July 2026*
 **Bi-Directional Surface Defect Recognition with Geometric & Photometric Priors**
 
 ```
