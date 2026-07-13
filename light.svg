@@ -1,0 +1,226 @@
+
+<svg width="1180" height="610" viewBox="0 0 1180 610" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="noiseFilter_light">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.1"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="rounded-avatar_light">
+      <circle cx="225" cy="280" r="100"/>
+    </clipPath>
+    <linearGradient id="accentGradient_light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="asciiGradient_light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00BFFF"/>
+      <stop offset="100%" stop-color="#00CED1"/>
+      <animateTransform attributeName="x1" type="translate" from="0" to="100%" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow_light">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 10 -5" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1180" height="610" rx="20" style="filter:url(#noiseFilter_light); opacity:0.02;"/>
+
+  <!-- Left Section (38%) -->
+  <g transform="translate(0, 0)">
+    <rect x="50" y="50" width="390" height="510" rx="10" fill="#F8FAFC" stroke="rgba(15,23,42,.08)" stroke-width="1"/>
+    
+    <!-- Avatar Image -->
+    <image x="125" y="180" width="200" height="200" clip-path="url(#rounded-avatar_light)" xlink:href="file:///home/ubuntu/avatar.jpg"/>
+    
+    <!-- Name -->
+    <text x="225" y="410" font-family="monospace" font-size="28" fill="#0F172A" text-anchor="middle">Jiyad Hussain</text>
+    
+    <!-- Simplified Animated ASCII Portrait -->
+    <g id="ascii-portrait_light" transform="translate(225, 450)">
+        <text font-family="monospace" font-size="16" fill="url(#asciiGradient_light)" text-anchor="middle" filter="url(#glow_light)">
+            <tspan x="0" dy="0">_  _ ____ _  _ ____ ____ _  _ ____</tspan>
+            <tspan x="0" dy="1.2em">|\/| |___ |\ | |___ |__/ |\ | |  |</tspan>
+            <tspan x="0" dy="1.2em">|  | |___ | \| |___ |  \ | \| |__|</tspan>
+            <animateMotion path="M 0 0 C 10 5, 10 5, 20 0" dur="3s" repeatCount="indefinite" rotate="auto"/>
+        </text>
+    </g>
+  </g>
+
+  <!-- Right Section (Terminal Window) -->
+  <g transform="translate(450, 0)">
+    <rect x="0" y="50" width="680" height="510" rx="10" fill="#F8FAFC" stroke="rgba(15,23,42,.08)" stroke-width="1"/>
+    
+    <!-- Terminal Header (Red, Yellow, Green dots) -->
+    <circle cx="20" cy="70" r="6" fill="#FF5F56"/>
+    <circle cx="40" cy="70" r="6" fill="#FFBD2E"/>
+    <circle cx="60" cy="70" r="6" fill="#27C93F"/>
+
+    <!-- Terminal Content -->
+    <text x="20" y="110" font-family="monospace" font-size="16" fill="#0F172A">Hi 👋 I'm Jiyad Hussain</text>
+    
+    <!-- Animated Typing Text -->
+    
+        <text x="20" y="140" font-family="monospace" font-size="16" fill="url(#accentGradient_light)" opacity="0" id="phrase0_light">
+            Frontend Engineer
+        </text>
+        
+        <animate attributeName="textLength" from="0" to="17" dur="1.7000000000000002s" begin="0.0s" fill="freeze" href="#phrase0_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.0s" fill="freeze" href="#phrase0_light"/>
+        
+        <animate attributeName="opacity" from="1" to="0" dur="0.5s" begin="3.2s" fill="freeze" href="#phrase0_light"/>
+        
+        <text x="20" y="140" font-family="monospace" font-size="16" fill="url(#accentGradient_light)" opacity="0" id="phrase1_light">
+            Full Stack Developer
+        </text>
+        
+        <animate attributeName="textLength" from="0" to="20" dur="2.0s" begin="3.7s" fill="freeze" href="#phrase1_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.7s" fill="freeze" href="#phrase1_light"/>
+        
+        <animate attributeName="opacity" from="1" to="0" dur="0.5s" begin="7.2s" fill="freeze" href="#phrase1_light"/>
+        
+        <text x="20" y="140" font-family="monospace" font-size="16" fill="url(#accentGradient_light)" opacity="0" id="phrase2_light">
+            Open Source Contributor
+        </text>
+        
+        <animate attributeName="textLength" from="0" to="23" dur="2.3000000000000003s" begin="7.7s" fill="freeze" href="#phrase2_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="7.7s" fill="freeze" href="#phrase2_light"/>
+        
+        <animate attributeName="opacity" from="1" to="0" dur="0.5s" begin="11.5s" fill="freeze" href="#phrase2_light"/>
+        
+        <text x="20" y="140" font-family="monospace" font-size="16" fill="url(#accentGradient_light)" opacity="0" id="phrase3_light">
+            UI Engineer
+        </text>
+        
+        <animate attributeName="textLength" from="0" to="11" dur="1.1s" begin="12.0s" fill="freeze" href="#phrase3_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="12.0s" fill="freeze" href="#phrase3_light"/>
+        
+        <animate attributeName="opacity" from="1" to="0" dur="0.5s" begin="14.6s" fill="freeze" href="#phrase3_light"/>
+        
+        <text x="20" y="140" font-family="monospace" font-size="16" fill="url(#accentGradient_light)" opacity="0" id="phrase4_light">
+            AI Enthusiast
+        </text>
+        
+        <animate attributeName="textLength" from="0" to="13" dur="1.3s" begin="15.1s" fill="freeze" href="#phrase4_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="15.1s" fill="freeze" href="#phrase4_light"/>
+        
+        <animate attributeName="opacity" from="1" to="0" dur="0.5s" begin="17.9s" fill="freeze" href="#phrase4_light"/>
+        
+    
+    <rect x="20" y="128" width="2" height="16" fill="#0F172A" id="cursor_light">
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" repeatCount="indefinite" begin="0s"/>
+    </rect>
+    
+    
+    <!-- Info Section -->
+    
+        <text x="20" y="180" font-family="monospace" font-size="14" fill="#475569" opacity="0" id="info_item0_light">Location: New Delhi, India</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="19.4s" fill="freeze" href="#info_item0_light"/>
+        
+        <text x="20" y="200" font-family="monospace" font-size="14" fill="#475569" opacity="0" id="info_item1_light">Education: Amity Univ, 2028</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="19.9s" fill="freeze" href="#info_item1_light"/>
+        
+        <text x="20" y="220" font-family="monospace" font-size="14" fill="#475569" opacity="0" id="info_item2_light">Current Focus: Exoplanet AI · ISRO</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="20.4s" fill="freeze" href="#info_item2_light"/>
+        
+        <text x="20" y="240" font-family="monospace" font-size="14" fill="#475569" opacity="0" id="info_item3_light">Portfolio: [Link to Portfolio]</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="20.9s" fill="freeze" href="#info_item3_light"/>
+        
+        <text x="20" y="260" font-family="monospace" font-size="14" fill="#475569" opacity="0" id="info_item4_light">Email: [Email Address]</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="21.4s" fill="freeze" href="#info_item4_light"/>
+        
+
+    <!-- Skills Section -->
+    <text x="20" y="300" font-family="monospace" font-size="16" fill="#0F172A" opacity="0" id="skills_title_light">
+        Skills:
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="22.4s" fill="freeze" href="#skills_title_light"/>
+    </text>
+    
+        <rect x="20" y="320" width="60" height="25" rx="12.5" fill="#2563EB1A" stroke="#2563EB4D" stroke-width="0.8" opacity="0" id="skill_rect0_light"/>
+        <text x="50" y="337" font-family="monospace" font-size="12" fill="#2563EB" text-anchor="middle" opacity="0" id="skill_text0_light">React</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="22.9s" fill="freeze" href="#skill_rect0_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="22.9s" fill="freeze" href="#skill_text0_light"/>
+        
+        <rect x="130" y="320" width="76" height="25" rx="12.5" fill="#06B6D41A" stroke="#06B6D44D" stroke-width="0.8" opacity="0" id="skill_rect1_light"/>
+        <text x="168" y="337" font-family="monospace" font-size="12" fill="#06B6D4" text-anchor="middle" opacity="0" id="skill_text1_light">Next.js</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="23.099999999999998s" fill="freeze" href="#skill_rect1_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="23.099999999999998s" fill="freeze" href="#skill_text1_light"/>
+        
+        <rect x="240" y="320" width="76" height="25" rx="12.5" fill="#10B9811A" stroke="#10B9814D" stroke-width="0.8" opacity="0" id="skill_rect2_light"/>
+        <text x="278" y="337" font-family="monospace" font-size="12" fill="#10B981" text-anchor="middle" opacity="0" id="skill_text2_light">Node.js</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="23.299999999999997s" fill="freeze" href="#skill_rect2_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="23.299999999999997s" fill="freeze" href="#skill_text2_light"/>
+        
+        <rect x="350" y="320" width="100" height="25" rx="12.5" fill="#3178C61A" stroke="#3178C64D" stroke-width="0.8" opacity="0" id="skill_rect3_light"/>
+        <text x="400" y="337" font-family="monospace" font-size="12" fill="#3178C6" text-anchor="middle" opacity="0" id="skill_text3_light">TypeScript</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="23.5s" fill="freeze" href="#skill_rect3_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="23.5s" fill="freeze" href="#skill_text3_light"/>
+        
+        <rect x="460" y="320" width="84" height="25" rx="12.5" fill="#06B6D41A" stroke="#06B6D44D" stroke-width="0.8" opacity="0" id="skill_rect4_light"/>
+        <text x="502" y="337" font-family="monospace" font-size="12" fill="#06B6D4" text-anchor="middle" opacity="0" id="skill_text4_light">Tailwind</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="23.7s" fill="freeze" href="#skill_rect4_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="23.7s" fill="freeze" href="#skill_text4_light"/>
+        
+        <rect x="20" y="355" width="68" height="25" rx="12.5" fill="#3776AB1A" stroke="#3776AB4D" stroke-width="0.8" opacity="0" id="skill_rect5_light"/>
+        <text x="54" y="372" font-family="monospace" font-size="12" fill="#3776AB" text-anchor="middle" opacity="0" id="skill_text5_light">Python</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="23.9s" fill="freeze" href="#skill_rect5_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="23.9s" fill="freeze" href="#skill_text5_light"/>
+        
+        <rect x="130" y="355" width="68" height="25" rx="12.5" fill="#2496ED1A" stroke="#2496ED4D" stroke-width="0.8" opacity="0" id="skill_rect6_light"/>
+        <text x="164" y="372" font-family="monospace" font-size="12" fill="#2496ED" text-anchor="middle" opacity="0" id="skill_text6_light">Docker</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="24.099999999999998s" fill="freeze" href="#skill_rect6_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="24.099999999999998s" fill="freeze" href="#skill_text6_light"/>
+        
+        <rect x="240" y="355" width="84" height="25" rx="12.5" fill="#3367911A" stroke="#3367914D" stroke-width="0.8" opacity="0" id="skill_rect7_light"/>
+        <text x="282" y="372" font-family="monospace" font-size="12" fill="#336791" text-anchor="middle" opacity="0" id="skill_text7_light">Postgres</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="24.299999999999997s" fill="freeze" href="#skill_rect7_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="24.299999999999997s" fill="freeze" href="#skill_text7_light"/>
+        
+        <rect x="350" y="355" width="44" height="25" rx="12.5" fill="#FF99001A" stroke="#FF99004D" stroke-width="0.8" opacity="0" id="skill_rect8_light"/>
+        <text x="372" y="372" font-family="monospace" font-size="12" fill="#FF9900" text-anchor="middle" opacity="0" id="skill_text8_light">AWS</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="24.5s" fill="freeze" href="#skill_rect8_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="24.5s" fill="freeze" href="#skill_text8_light"/>
+        
+        <rect x="460" y="355" width="44" height="25" rx="12.5" fill="#F050321A" stroke="#F050324D" stroke-width="0.8" opacity="0" id="skill_rect9_light"/>
+        <text x="482" y="372" font-family="monospace" font-size="12" fill="#F05032" text-anchor="middle" opacity="0" id="skill_text9_light">Git</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="24.7s" fill="freeze" href="#skill_rect9_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="24.7s" fill="freeze" href="#skill_text9_light"/>
+        
+        <rect x="20" y="390" width="60" height="25" rx="12.5" fill="#F24E1E1A" stroke="#F24E1E4D" stroke-width="0.8" opacity="0" id="skill_rect10_light"/>
+        <text x="50" y="407" font-family="monospace" font-size="12" fill="#F24E1E" text-anchor="middle" opacity="0" id="skill_text10_light">Figma</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="24.9s" fill="freeze" href="#skill_rect10_light"/>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="24.9s" fill="freeze" href="#skill_text10_light"/>
+        
+
+    <!-- Social Icons -->
+    <text x="20" y="400" font-family="monospace" font-size="16" fill="#0F172A" opacity="0" id="social_title_light">
+        Social:
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="25.599999999999998s" fill="freeze" href="#social_title_light"/>
+    </text>
+    
+        <text x="20" y="420" font-family="monospace" font-size="14" fill="#0F172A" opacity="0" id="social_icon0_light">GitHub</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="26.099999999999998s" fill="freeze" href="#social_icon0_light"/>
+        
+        <text x="88" y="420" font-family="monospace" font-size="14" fill="#0A66C2" opacity="0" id="social_icon1_light">LinkedIn</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="26.4s" fill="freeze" href="#social_icon1_light"/>
+        
+        <text x="172" y="420" font-family="monospace" font-size="14" fill="#1DA1F2" opacity="0" id="social_icon2_light">Twitter</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="26.7s" fill="freeze" href="#social_icon2_light"/>
+        
+        <text x="248" y="420" font-family="monospace" font-size="14" fill="#FFD700" opacity="0" id="social_icon3_light">Portfolio</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="26.999999999999996s" fill="freeze" href="#social_icon3_light"/>
+        
+  </g>
+
+</svg>
