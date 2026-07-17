@@ -113,7 +113,7 @@ class JiyadHussain:
 <!-- Regenerated on a schedule by the GitHub Action in .github/workflows/snake.yml -->
 <div align="center">
   <picture>
-    <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Hussaincodes01/Hussaincodes01/output/snake.svg" />
+    <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Hussaincodes01/Hussaincodes01/snake.yaml" />
   </picture>
 </div>
 
