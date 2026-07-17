@@ -1,6 +1,6 @@
 <!-- ═══════════════════════ ANIMATED NEUBRUTALIST BANNER ═══════════════════════ -->
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Jiyad Hussain — Machine Learning Engineer" />
+  <img src="./header.svg" width="100%" alt="Jiyad Hussain — Machine Learning Engineer" />
 </div>
 
 <!-- ═══════════════════════ TYPING TAGLINE + VIEW COUNTER ═══════════════════════ -->
