@@ -1,0 +1,35 @@
+<svg width="450" height="200" viewBox="0 0 450 200" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .key { fill: #58a6ff; font-family: monospace; font-size: 14px; font-weight: bold; }
+  .val { fill: #8b949e; font-family: monospace; font-size: 14px; }
+  .title { fill: #d29922; font-family: monospace; font-size: 16px; font-weight: bold; }
+</style>
+<text x="10" y="30" class="title">jiyad@github:~$ neofetch
+  <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze" />
+</text>
+<g opacity="0">
+  <text x="20" y="70" class="key">WHOAMI:</text>
+  <text x="100" y="70" class="val">Jiyad Hussain</text>
+  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.5s" fill="freeze" />
+</g>
+<g opacity="0">
+  <text x="20" y="95" class="key">ROLE:</text>
+  <text x="100" y="95" class="val">AI Engineer</text>
+  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.7s" fill="freeze" />
+</g>
+<g opacity="0">
+  <text x="20" y="120" class="key">FOCUS:</text>
+  <text x="100" y="120" class="val">Deep Learning / NLP / CV</text>
+  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.9s" fill="freeze" />
+</g>
+<g opacity="0">
+  <text x="20" y="145" class="key">STACK:</text>
+  <text x="100" y="145" class="val">Python / PyTorch / TS</text>
+  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.1s" fill="freeze" />
+</g>
+<g opacity="0">
+  <text x="20" y="170" class="key">MISSION:</text>
+  <text x="100" y="170" class="val">Shipping ML pipelines 🎯</text>
+  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.3s" fill="freeze" />
+</g>
+</svg>

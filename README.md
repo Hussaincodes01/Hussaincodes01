@@ -1,22 +1,27 @@
-<!-- ═══════════════════════ ANIMATED NEUBRUTALIST BANNER ═══════════════════════ -->
 <div align="center">
-  <img src="./header.svg" width="100%" alt="Jiyad Hussain — AI Engineer" />
-</div>
 
-<!-- ═══════════════════════ TYPING TAGLINE + VIEW COUNTER ═══════════════════════ -->
-<div align="center">
-  <a href="https://github.com/Hussaincodes01">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=22&pause=1200&color=FF3D81&center=true&vCenter=true&width=620&height=45&lines=I+cook+models+%26+curries+alike;Deep+Learning+%2F%2F+NLP+%2F%2F+Transformers;Kaggling+%26+Colabing+my+way+through+data" alt="Typing SVG" />
-  </a>
-  <br/><br/>
-  <img src="https://komarev.com/ghpvc/?username=Hussaincodes01&label=PROFILE+VIEWS&color=ff3d81&style=for-the-badge" alt="Profile views" />
-  <a href="https://www.linkedin.com/in/jiyad-hussain-50379134b/">
-    <img src="https://img.shields.io/badge/LINKEDIN-c8a2ff?style=for-the-badge&logo=linkedin&logoColor=111111" alt="LinkedIn" />
-  </a>
-  <a href="https://www.kaggle.com/">
-    <img src="https://img.shields.io/badge/KAGGLE-3ddc97?style=for-the-badge&logo=kaggle&logoColor=111111" alt="Kaggle" />
-  </a>
-</div>
+# Jiyad Hussain
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=22&pause=1200&color=FF3D81&center=true&vCenter=true&width=620&height=45&lines=AI+Engineer;Deep+Learning+//+NLP+//+CV;Shipping+ML+pipelines+🎯)](https://github.com/Hussaincodes01)
+
+<br>
+
+<img src="./contrib-heatmap.svg" width="800" />
+
+<br>
+
+<table>
+  <tr>
+    <td valign="top" width="350">
+      <img src="./avi-ascii.svg" width="350" />
+    </td>
+    <td valign="top" width="450">
+      <img src="./info-card.svg" width="450" />
+    </td>
+  </tr>
+</table>
+
+<br>
 
 ---
 
@@ -65,34 +70,6 @@ class JiyadHussain:
 ![Kaggle](https://img.shields.io/badge/Kaggle-3ddc97?style=for-the-badge&logo=kaggle&logoColor=111111)
 ![Colab](https://img.shields.io/badge/Colab-3ddc97?style=for-the-badge&logo=googlecolab&logoColor=111111)
 
-**Tooling**
-
-![Git](https://img.shields.io/badge/Git-ffd23f?style=for-the-badge&logo=git&logoColor=111111)
-![GitHub](https://img.shields.io/badge/GitHub-ffd23f?style=for-the-badge&logo=github&logoColor=111111)
-![VS Code](https://img.shields.io/badge/VS%20Code-ffd23f?style=for-the-badge&logo=visualstudiocode&logoColor=111111)
-![Linux](https://img.shields.io/badge/Linux-ffd23f?style=for-the-badge&logo=linux&logoColor=111111)
-
----
-
-## ▪ LIVE STATS
-
-<!-- These re-render on every page load, so they stay current automatically -->
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Hussaincodes01&show_icons=true&hide_border=false&title_color=ff3d81&icon_color=c8a2ff&text_color=111111&bg_color=fdf9f0&border_color=111111&border_radius=14&cache_seconds=21600" alt="GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussaincodes01&layout=compact&hide_border=false&title_color=ff3d81&text_color=111111&bg_color=fdf9f0&border_color=111111&border_radius=14&langs_count=8&cache_seconds=21600" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Hussaincodes01&hide_border=false&background=fdf9f0&border=111111&stroke=111111&ring=ff3d81&fire=ff6b5e&currStreakLabel=ff3d81&sideLabels=111111&currStreakNum=111111&sideNums=111111&dates=666666&border_radius=14" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hussaincodes01&bg_color=fdf9f0&color=111111&line=ff3d81&point=c8a2ff&area=true&area_color=ffd23f&hide_border=false&border_color=111111&custom_title=CONTRIBUTION%20GRAPH" alt="Activity Graph" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Hussaincodes01&theme=flat&no-frame=false&no-bg=true&column=7&margin-w=6&margin-h=6" alt="Trophies" />
-</div>
-
 ---
 
 ## ▪ FEATURED BUILDS
@@ -107,15 +84,13 @@ class JiyadHussain:
 
 ---
 
-## ▪ CONTRIBUTION SNAKE
+### ▪ CONNECT WITH ME
 
-<!-- Regenerated on a schedule by the GitHub Action in .github/workflows/snake.yaml -->
-<div align="center">
-  <picture>
-    <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Hussaincodes01/Hussaincodes01/output/snake.svg" />
-  </picture>
-</div>
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-c8a2ff?style=for-the-badge&logo=linkedin&logoColor=111111)](https://www.linkedin.com/in/jiyad-hussain-50379134b/)
+[![Kaggle](https://img.shields.io/badge/KAGGLE-3ddc97?style=for-the-badge&logo=kaggle&logoColor=111111)](https://www.kaggle.com/hussaincodes01)
 
 <div align="center">
   <sub><code>&#62; keep shipping · keep kaggling · keep cooking</code></sub>
+</div>
+
 </div>
