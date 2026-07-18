@@ -25,7 +25,7 @@
 ```python
 class JiyadHussain:
     def __init__(self):
-        self.role      = "Machine Learning Engineer"
+        self.role      = "AI Engineer"
         self.focus     = ["Deep Learning", "NLP", "Transformers"]
         self.stack     = ["Python", "PyTorch", "Hugging Face", "TypeScript"]
         self.playground = ["Kaggle", "Google Colab", "Jupyter"]
@@ -78,8 +78,8 @@ class JiyadHussain:
 
 <!-- These re-render on every page load, so they stay current automatically -->
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Hussaincodes01&show_icons=true&count_private=true&hide_border=false&title_color=ff3d81&icon_color=c8a2ff&text_color=111111&bg_color=fdf9f0&border_color=111111&border_radius=14" alt="GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussaincodes01&layout=compact&hide_border=false&title_color=ff3d81&text_color=111111&bg_color=fdf9f0&border_color=111111&border_radius=14&langs_count=8" alt="Top Languages" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Hussaincodes01&show_icons=true&hide_border=false&title_color=ff3d81&icon_color=c8a2ff&text_color=111111&bg_color=fdf9f0&border_color=111111&border_radius=14&cache_seconds=21600" alt="GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hussaincodes01&layout=compact&hide_border=false&title_color=ff3d81&text_color=111111&bg_color=fdf9f0&border_color=111111&border_radius=14&langs_count=8&cache_seconds=21600" alt="Top Languages" />
 </div>
 
 <div align="center">
@@ -110,7 +110,7 @@ class JiyadHussain:
 
 ## ▪ CONTRIBUTION SNAKE
 
-<!-- Regenerated on a schedule by the GitHub Action in .github/workflows/snake.yml -->
+<!-- Regenerated on a schedule by the GitHub Action in .github/workflows/snake.yaml -->
 <div align="center">
   <picture>
     <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Hussaincodes01/Hussaincodes01/output/snake.svg" />
