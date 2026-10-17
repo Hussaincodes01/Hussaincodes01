@@ -28,7 +28,7 @@ def image_to_ascii_svg(image_path, output_path, width=100):
     
     svg = [f'<svg width="{svg_width}" height="{svg_height}" viewBox="0 0 {svg_width} {svg_height}" xmlns="http://www.w3.org/2000/svg">']
     svg.append('<style>text { font-family: "Courier New", monospace; font-size: 10px; fill: #c9d1d9; white-space: pre; }</style>')
-    svg.append('<rect width="100%" height="100%" fill="transparent" />')
+    svg.append('<rect width="100%" height="100%" rx="14" fill="#0d1117" />')
     
     for y in range(height):
         line = ""
