@@ -13,7 +13,7 @@
 
 <table>
   <tr>
-    <td valign="middle" width="50%"><img src="./avi-ascii.svg" width="100%" alt="ASCII portrait" /></td>
+    <td valign="middle" width="50%"><img src="./profile.jpg" width="100%" alt="Jiyad Hussain" /></td>
     <td valign="middle" width="50%"><img src="./info-card.svg" width="100%" alt="neofetch-style info card" /></td>
   </tr>
 </table>
